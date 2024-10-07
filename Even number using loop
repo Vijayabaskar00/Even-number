@@ -1,0 +1,14 @@
+public class EvenNumbers {
+    public static void main(String[] args) {
+        int start = 1;  // Starting point
+        int end = 20;   // Ending point
+        
+        System.out.println("Even numbers between " + start + " and " + end + " are:");
+        
+        for (int i = start; i <= end; i++) {
+            if (i % 2 == 0) {  // Check if the number is divisible by 2
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
